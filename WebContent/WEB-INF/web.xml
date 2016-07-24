@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>mie350_group14</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>UserController</display-name>
+    <servlet-name>UserController</servlet-name>
+    <servlet-class>com.mie.controller.UserController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserController</servlet-name>
+    <url-pattern>/UserController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ActivityController</display-name>
+    <servlet-name>ActivityController</servlet-name>
+    <servlet-class>com.mie.controller.ActivityController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ActivityController</servlet-name>
+    <url-pattern>/ActivityController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>MatchController</display-name>
+    <servlet-name>MatchController</servlet-name>
+    <servlet-class>com.mie.controller.MatchController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MatchController</servlet-name>
+    <url-pattern>/MatchController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>PartnerController</display-name>
+    <servlet-name>PartnerController</servlet-name>
+    <servlet-class>com.mie.controller.PartnerController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PartnerController</servlet-name>
+    <url-pattern>/PartnerController</url-pattern>
+  </servlet-mapping>
+</web-app>
